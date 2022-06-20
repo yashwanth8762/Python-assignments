@@ -1,0 +1,19 @@
+tuple
+
+tuple is defined () brackets
+tuples are immuteble
+ittiration is more fatster copmpare to list
+>>> tup=(21,32,33,45)
+>>> tup
+(21, 32, 33, 45)
+
+>>> tup[1]
+32
+
+
+set set is defined in curly braces
+set contains unique values
+>>> s={1,23,4,5,6}
+>>> s
+{1, 4, 5, 6, 23}
+in set indexing is not supported
