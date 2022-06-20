@@ -1,0 +1,27 @@
+if else statement
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+  
+  
+  for while loop exampel
+  i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+  
+  
+ For loop sataement
+ 
+  for i in range(4):
+    for j in range(4-i):
+        print("#",end="")
+    print()
