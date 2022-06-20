@@ -1,0 +1,43 @@
+dictionary uses key and value pair 
+dictionary is defined inside the curly braces
+is unique and immutabele
+
+>>> data={1:'1',2:'kiran',4:'harsh'}
+>>> data
+{1: '1', 2: 'kiran', 4: 'harsh'}
+>>> data.get(1)
+'1'
+>>> print(data.get(3))
+None
+>>> keys=['yash','pranav','nikhil']
+>>> values=['py','ja','c']
+>>> data=dict(zip(keys,values))
+>>> data
+{'yash': 'py', 'pranav': 'ja', 'nikhil': 'c'}
+>>> data['mounika']='c++'
+>>> data
+{'yash': 'py', 'pranav': 'ja', 'nikhil': 'c', 'mounika': 'c++'}
+>>>
+
+
+Swapping of Two numbe
+a=5
+b=6
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+
+
+s=[1.5,7324,3,32,342,4234,4]
+for i in s:
+    print(i.__ceil__())
+
+
+
+the not divisible by 3
+for i in range(0,101,1):
+    if i%3==0:
+        print(i)
